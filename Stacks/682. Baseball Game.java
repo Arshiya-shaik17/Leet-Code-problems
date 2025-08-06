@@ -1,4 +1,4 @@
-You are keeping the scores for a baseball game with strange rules. At the beginning of the game, you start with an empty record.
+/*You are keeping the scores for a baseball game with strange rules. At the beginning of the game, you start with an empty record.
 
 You are given a list of strings operations, where operations[i] is the ith operation you must apply to the record and is one of the following:
 
@@ -59,7 +59,7 @@ For operation "+", there will always be at least two previous scores on the reco
 For operations "C" and "D", there will always be at least one previous score on the record.
 
 Source code:
-
+*/
 class Solution {
     public int calPoints(String[] operations) {
         Stack <Integer> stack=new Stack<>();
@@ -86,4 +86,5 @@ class Solution {
         }
         return sum;
     }
+
 }
