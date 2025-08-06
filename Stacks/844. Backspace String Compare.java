@@ -1,4 +1,4 @@
-Given two strings s and t, return true if they are equal when both are typed into empty text editors. '#' means a backspace character.
+/*Given two strings s and t, return true if they are equal when both are typed into empty text editors. '#' means a backspace character.
 
 Note that after backspacing an empty text, the text will continue empty.
 
@@ -28,7 +28,7 @@ s and t only contain lowercase letters and '#' characters.
 
 
 Source code:
-
+*/
 class Solution {
     public boolean backspaceCompare(String s, String t) {
         Stack <Character> stack1=new Stack<>();
@@ -61,4 +61,5 @@ class Solution {
 
 
     }
+
 }
