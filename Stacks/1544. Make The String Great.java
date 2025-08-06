@@ -1,4 +1,4 @@
-Given a string s of lower and upper case English letters.
+/*Given a string s of lower and upper case English letters.
 
 A good string is a string which doesn't have two adjacent characters s[i] and s[i + 1] where:
 
@@ -36,7 +36,7 @@ Constraints:
 s contains only lower and upper case English letters.
 
 Source code:
-
+*/
 class Solution {
     public String makeGood(String s) {
         Stack <Character> stack=new Stack<>();
@@ -55,4 +55,5 @@ class Solution {
         }            
         return str.reverse().toString();
     }
+
 }
