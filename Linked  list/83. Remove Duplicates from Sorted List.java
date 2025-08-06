@@ -1,6 +1,6 @@
 								remove-duplicates-from-sorted-list
 
-Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
+/*Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
 
  
 
@@ -23,7 +23,7 @@ The number of nodes in the list is in the range [0, 300].
 The list is guaranteed to be sorted in ascending order.
 
 
-Source code:
+Source code:*/
 
 /**
  * Definition for singly-linked list.
@@ -48,4 +48,5 @@ class Solution {
         }
         return head;
     }
+
 }
