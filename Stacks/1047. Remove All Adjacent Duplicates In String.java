@@ -1,4 +1,4 @@
-You are given a string s consisting of lowercase English letters. A duplicate removal consists of choosing two adjacent and equal letters and removing them.
+/*You are given a string s consisting of lowercase English letters. A duplicate removal consists of choosing two adjacent and equal letters and removing them.
 
 We repeatedly make duplicate removals on s until we no longer can.
 
@@ -24,7 +24,7 @@ Constraints:
 s consists of lowercase English letters.
 
 Source code:
-
+*/
 class Solution {
     public String removeDuplicates(String s) {
         char[] ch=s.toCharArray();
@@ -44,4 +44,5 @@ class Solution {
         }
         return str.reverse().toString();
     }
+
 }
